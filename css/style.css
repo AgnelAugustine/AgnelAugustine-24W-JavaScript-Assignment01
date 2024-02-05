@@ -1,0 +1,73 @@
+/* Styles for the body */
+body {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Set minimum height to full viewport height */
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #a29f9f; /* Set background color */
+}
+
+/* Styles for the main container */
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 20px auto; /* Center the container horizontally */
+    background-color: #5c5050; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(71, 56, 56, 0.5); /* Add box shadow */
+}
+
+/* Styles for headings */
+h1, h2 {
+    text-align: center; /* Center align headings */
+    color: #333; /* Set text color */
+}
+
+/* Styles for sections */
+section {
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    margin-bottom: 20px; /* Add bottom margin */
+    border: 10px solid #444343; /* Add border */
+    background-color: #ffffff; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+/* Styles for div elements inside sections */
+section div {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Set cursor to pointer */
+    background-color: #434548; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    margin: 10px; /* Add margin */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Hover styles for buttons */
+button:hover {
+    background-color: #d8d8d8; /* Change background color on hover */
+}
+
+/* Styles for paragraph elements */
+p {
+    margin: 10px 0; /* Add margin */
+    text-align: center; /* Center align text */
+    color: #3a1d1d; /* Set text color */
+}
